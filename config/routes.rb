@@ -7,6 +7,14 @@ Rails.application.routes.draw do
   
   get 'movies/updatemovie' => 'movies#updatemovie'
   get 'movies/updatepls' => 'movies#updatepls'
+  
+  
+  get 'movies/deletemovie' => 'movies#deletemovie'
+  get 'movies/deletepls' => 'movies#deletepls'
+ 
+  
+  get 'movies/deletemoviebyrating' => 'movies#deletemoviebyrating'
+  get 'movies/deleteplsrating' => 'movies#deleteplsrating'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
